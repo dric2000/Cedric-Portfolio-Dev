@@ -142,7 +142,7 @@ const Hero = () => {
             }}
           >
             {/* Avatar */}
-            <div className="w-36 h-36 sm:w-44 sm:h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center border-2 border-primary/30">
+            <div className="w-36 h-36 sm:w-44 sm:h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 rounded-full bg-linear-to-br from-primary/20 to-secondary/20 flex items-center justify-center border-2 border-primary/30">
               <span className="font-sora text-3xl sm:text-4xl md:text-5xl text-foreground">
                 👨‍💻
               </span>
