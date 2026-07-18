@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { projects } from "../../data/projects";
 import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 import { fadeInUp, staggerContainer } from "../../utils/animations";
@@ -87,15 +88,16 @@ const Projects = () => {
                 </div>
 
                 {/* Lien */}
-                <motion.a
-                  href={`/projets/${project.slug}`}
-                  className="inline-flex items-center gap-2 mt-4 font-mono text-sm text-secondary hover:text-secondary-light transition-colors"
-                  whileHover={{ x: 4 }}
-                  transition={{ duration: 0.2 }}
+                <Link
+                  to={`/projets/${project.slug}`}
+                  className="inline-flex items-center gap-2 mt-4 font-mono text-sm text-secondary hover:text-secondary-light transition-colors group"
                 >
                   Voir l'étude de cas
-                  <ArrowRight size={14} />
-                </motion.a>
+                  <ArrowRight
+                    size={14}
+                    className="transition-transform duration-200 group-hover:translate-x-1"
+                  />
+                </Link>
               </div>
             </motion.div>
           ))}
