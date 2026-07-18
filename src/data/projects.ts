@@ -27,7 +27,7 @@ export const projects: Project[] = [
     subtitle: "Plateforme de compatibilité matière",
     description:
       "Solution de gestion des entrées et des sorties du Port Autonome de Cotonou",
-    image: "/public/MMTE.png",
+    image: "/MMTE.png",
     tags: ["React", "TypeScript", "Django REST", "PostgreSQL"],
     featured: true,
     demoUrl: "https://mad-vrac.com",
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     title: "Work",
     subtitle: "Gestion de projets informatiques",
     description: "Solution de gestion de projets et de tâches en entreprise",
-    image: "/public/Work.png",
+    image: "/Work.png",
     tags: ["React", "Tailwind", "Django Rest", "PostgreSQL"],
     demoUrl: "https://yemo.bj",
     repoUrl: "https://github.com/cedric/yemo",
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     subtitle: "Application de signalement citoyen",
     description:
       "Signalement des problèmes de voirie et d'infrastructure urbaine.",
-    image: "/public/Fix.png",
+    image: "/Fix.png",
     tags: ["React", "Tailwind - Shad CN", "Django Rest", "PostgreSQL"],
     demoUrl: "https://fix-civalert.bj",
     repoUrl: "https://github.com/cedric/fix-civalert",
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     subtitle: "Gestion de stock",
     description:
       "Gestion des entrées et des sorties pour un laboratoire d'analyses biomédicales",
-    image: "/public/OverWatch.png",
+    image: "/OverWatch.png",
     tags: ["React", "TypeScript", "Django", "PostgreSQL"],
     demoUrl: "https://benintche.bj",
     repoUrl: "https://github.com/cedric/benin-tche",
